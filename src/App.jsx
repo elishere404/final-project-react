@@ -62,7 +62,7 @@ function App() {
   const fetchDefinition = async () => {
     if (!word) {
       setInputError(true);
-      setError({ emoji: "😕", title: "No Definitions Found", message: "FILL THAT INPUT BAR!!!" });
+      setError({ emoji: "😡", title: "The search bar must not be empty !!!", message: "FILL THAT INPUT BAR!!!" });
       setDefinition(null);
       return;
     }
